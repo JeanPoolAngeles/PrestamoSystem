@@ -12,7 +12,7 @@ class ApisController extends Controller
         Log::info('consultarDni called', ['request' => $request->all()]);
 
         $dni = $request->input('dni');
-        $token = 'apis-token-9610.Cjz3QYWAUQOdjqshRY3bOOBlsppeNHjn';
+        $token = '*******';
 
         $curl = curl_init();
 
@@ -48,7 +48,7 @@ class ApisController extends Controller
         Log::info('consultarRuc called', ['request' => $request->all()]);
 
         $ruc = $request->input('ruc');
-        $token = 'apis-token-9610.Cjz3QYWAUQOdjqshRY3bOOBlsppeNHjn';
+        $token = '******';
 
         $curl = curl_init();
 
